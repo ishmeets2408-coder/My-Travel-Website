@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore USA | American Travel Guide</title>
+  <meta name="description" content="Travel across the USA: big cities, national parks, coastlines and open roads.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+
+      <a href="#home" class="logo" aria-label="Explore USA home">
+        <!-- Logo: apni logo image chahiye to is <svg> ko <img src="images/logo.png" alt="Explore USA"> se badal do -->
+        <svg class="logo-mark" viewBox="0 0 56 56" aria-hidden="true">
+          <circle cx="28" cy="28" r="26" fill="#0A3161"/>
+          <circle cx="28" cy="28" r="26" fill="none" stroke="#B31942" stroke-width="4"/>
+          <polygon points="28,10 32.4,22.2 45.4,22.6 35.1,30.6 38.8,43 28,35.8 17.2,43 20.9,30.6 10.6,22.6 23.6,22.2" fill="#FFFFFF"/>
+        </svg>
+        <span class="logo-text">Explore USA</span>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+
+    </div>
+    <div class="strip" aria-hidden="true"></div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO / INTRO ============ -->
+    <section class="hero" id="home">
+      <div class="wrap hero-inner">
+
+        <div class="hero-text">
+          <h1>See America, one state at a time</h1>
+          <p class="hero-lead">
+            Skyscrapers in New York, red rocks in Arizona, redwoods in California
+            and a long open road in between.
+          </p>
+          <p>
+            Cross the Golden Gate Bridge at sunrise, stand at the rim of the Grand Canyon
+            and watch Old Faithful erupt in Yellowstone. This is our travel diary
+            of the United States.
+          </p>
+          <a class="btn" href="#gallery">See the gallery</a>
+        </div>
+
+        <figure class="hero-frame">
+          <div class="hero-photo">
+            <span class="ph-label">images/hero.jpg</span>
+            <!-- Apni best photo yaha lagao: images/hero.jpg naam se save karo -->
+            <img src="images/usa logo.jpg.jpeg" alt="American landscape at sunrise" onerror="this.style.display='none'">
+          </div>
+        </figure>
+
+      </div>
+    </section>
+
+    <div class="strip" aria-hidden="true"></div>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" id="gallery">
+      <div class="wrap">
+
+        <div class="section-head">
+          <h2>Gallery</h2>
+          <p>Postcards from the cities, parks and coastlines of the USA.</p>
+        </div>
+
+        <div class="grid">
+
+          <!-- Har photo ke liye: images folder me photo rakho, src aur alt/caption badlo -->
+          <figure class="card red">
+            <div class="frame">
+              <span class="ph-label">images/photo1.jpg</span>
+              <img src="images/Facade-Library-of-Congress-Washington.webp" alt="Statue of Liberty, New York" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Statue of Liberty, New York</figcaption>
+          </figure>
+
+          <figure class="card blue">
+            <div class="frame">
+              <span class="ph-label">images/photo2.jpg</span>
+              <img src="images/Golden-Gate-Bridge-San-Francisco.webp" alt="Golden Gate Bridge, San Francisco" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Golden Gate Bridge, San Francisco</figcaption>
+          </figure>
+
+          <figure class="card red">
+            <div class="frame">
+              <span class="ph-label">images/photo3.jpg</span>
+              <img src="images/garden canyon.jpg.jpeg" alt="Grand Canyon, Arizona" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Grand Canyon, Arizona</figcaption>
+          </figure>
+
+          <figure class="card blue">
+            <div class="frame">
+              <span class="ph-label">images/photo4.jpg</span>
+              <img src="images/old faithful.jpg.jpeg" alt="Old Faithful, Yellowstone" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Old Faithful, Yellowstone</figcaption>
+          </figure>
+
+          <figure class="card red">
+            <div class="frame">
+              <span class="ph-label">images/photo5.jpg</span>
+              <img src="images/Hollywood_sign.jpg.jpeg" alt="Hollywood Sign, Los Angeles" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Hollywood Sign, Los Angeles</figcaption>
+          </figure>
+
+          <figure class="card blue">
+            <div class="frame">
+              <span class="ph-label">images/photo6.jpg</span>
+              <img src="images/miami.jpg.jpeg" alt="Miami Beach, Florida" onerror="this.style.display='none'">
+            </div>
+            <figcaption>Miami Beach, Florida</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="strip" aria-hidden="true"></div>
+    <div class="wrap footer-inner">
+      <p class="footer-name">Explore USA</p>
+      <p>&copy; 2026 Explore USA. Made with love for the open road.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
